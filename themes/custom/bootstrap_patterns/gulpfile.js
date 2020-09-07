@@ -25,7 +25,7 @@ var paths = {
     destination: 'dist/css/'
   },
   scripts: {
-    source: 'src/js/',
+    source: 'patterns/',
     destination: 'dist/js/'
   },
   images: 'images/'
