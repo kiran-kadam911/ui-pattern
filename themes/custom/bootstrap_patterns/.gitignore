@@ -3,6 +3,7 @@ vendor
 composer.lock
 .DS_STORE
 *.patch
+dist
 node_modules
 *.css.map
 
