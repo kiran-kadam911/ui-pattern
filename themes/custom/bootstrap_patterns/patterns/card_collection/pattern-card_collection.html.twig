@@ -1,0 +1,7 @@
+<div class="card-collection" role="listbox">
+	<div class="card-collection__content">
+		{% for item in items %}
+			{{ pattern('card', item) }}
+		{% endfor %}
+	</div>
+</div>

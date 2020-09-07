@@ -1,0 +1,21 @@
+card_collection:
+  label: 'Card collection'
+  description: 'A collection of card component.'
+  fields:
+    items:
+      type: 'collection'
+      label: 'Cards'
+      description: 'Each card is a collection of title, text and icon.'
+      preview:
+        - 
+          image:
+            theme: 'image'
+            uri: 'http://lorempixel.com/400/200/nature/2'
+          title: 'Card title 1'
+          text: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'
+        - 
+          image:
+            theme: 'image'
+            uri: 'http://lorempixel.com/400/200/nature/2'
+          title: 'Card title 2'
+          text: 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Fusce ac felis sit amet.'

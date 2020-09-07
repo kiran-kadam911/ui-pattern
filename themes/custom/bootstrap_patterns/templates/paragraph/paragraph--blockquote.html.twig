@@ -1,0 +1,5 @@
+{{ pattern('blockquote', {
+  'content': content.field_description|render|striptags|trim,
+  'attribution': content.field_title|render|striptags|trim,
+  'image': content.field_image
+}) }}

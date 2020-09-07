@@ -1,0 +1,14 @@
+blockquote:
+  label: Blockquote
+  description: Display a quote with attribution information.
+  fields:
+    quote:
+      type: text
+      label: Quote
+      description: Quote text.
+      preview: Life is like riding a bicycle. To keep your balance, you must keep moving.
+    attribution:
+      type: text
+      label: Attribution
+      description: Quote attribution.
+      preview: Albert Einstein

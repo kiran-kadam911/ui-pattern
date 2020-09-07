@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ */
+function s3v_preprocess_html(&$variables) {
+  // Process Default font settings.
+  $variables['s3v']['web_font_import'] = theme_get_setting('web_font_import');
+}
+
+/**
+ * Implements hook_preprocess().
+ */
+function s3v_preprocess(&$variables) {
+  // Process Footer copyright text.
+  $footer_copyright_text = str_replace('@year', date('Y'), theme_get_setting('footer_copyright_text'));
+  $variables['s3v']['footer_copyright_text'] = $footer_copyright_text;
+}

@@ -1,0 +1,27 @@
+blockquote:
+  label: 'Blockquote'
+  description: A block of text quoted from an external source.
+  fields:
+    content:
+      type: text
+      label: Content
+      description: The body of the quote.
+      preview: 'To be or to not to be... That is the question.'
+    attribution:
+      type: text
+      label: Attribution
+      description: Reference to the original author (optional).
+      preview: 'William Shakespeare'
+    image:
+      type: 'image'
+      label: 'Avatar image'
+      description: 'Author avatar image.'
+      preview:
+        theme: 'image'
+        uri: '/themes/custom/bootstrap_patterns/images/pic01.jpg'
+  libraries:
+    -
+      blockquote:
+        css:
+          component:
+            ../../dist/css/blockquote/blockquote.css: {}

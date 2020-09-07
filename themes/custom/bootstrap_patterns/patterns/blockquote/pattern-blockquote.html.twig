@@ -1,0 +1,17 @@
+<section>
+	<div class="content">
+		<blockquote>
+			<p>{{ content }}</p>
+		</blockquote>
+		{% if attribution %}
+			<div class="author">
+				<div class="image">
+					{{ image }}
+				</div>
+				<p class="credit">-
+					<strong>{{ attribution }}</strong>
+				</p>
+			</div>
+		{% endif %}
+	</div>
+</section>

@@ -1,0 +1,25 @@
+card-icon:
+  label: 'Card with icon'
+  description: 'A card with icon component.'
+  fields:
+    icon_class:
+      type: pattern
+      label: 'Icon class'
+      description: 'Icon class.'
+      preview: 'glyphicon glyphicon-asterisk'
+    title:
+      type: 'text'
+      label: 'Title'
+      description: 'Card title.'
+      preview: 'Card title'
+    text:
+      type: 'text'
+      label: 'Text'
+      description: 'Card text.'
+      preview: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'
+  libraries:
+    -
+      card-icon:
+        css:
+          component:
+            ../../dist/css/card/card-icon.css: {}

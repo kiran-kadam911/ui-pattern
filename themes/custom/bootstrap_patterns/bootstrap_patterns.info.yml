@@ -1,0 +1,25 @@
+name: UI Patterns example theme
+type: theme
+base theme: bootstrap
+description: UI Patterns example theme based on Bootstrap. It needs the <a href="https://www.drupal.org/project/ui_patterns" target="_blank">Ui Pattern module</a> to function correctly.
+package: Core
+version: VERSION
+core: 8.x
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer_top: 'Footer top'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  
+libraries:
+  - bootstrap_patterns/fonts
+  - bootstrap_patterns/patterns-overview

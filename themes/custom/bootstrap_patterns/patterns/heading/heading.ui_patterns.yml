@@ -1,0 +1,27 @@
+heading:
+  label: Heading
+  description: Heading levels.
+  fields:
+    headings:
+      type: collection
+      label: Heading levels
+      description: Heading levels
+      preview:
+        -
+          text: Heading level
+          size: 1
+        -
+          text: Heading level
+          size: 2
+        -
+          text: Heading level
+          size: 3
+        -
+          text: Heading level
+          size: 4
+        -
+          text: Heading level
+          size: 5
+        -
+          text: Heading level
+          size: 6

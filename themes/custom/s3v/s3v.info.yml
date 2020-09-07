@@ -1,0 +1,23 @@
+name: S3V
+type: theme
+base theme: false
+description: A Drupal theme with all together clean, modern, and accessible.
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - s3v/global-styling
+
+regions:
+  branding: 'Branding'
+  navigation: 'Main navigation'
+  search: 'Search'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  content_top: 'Content top'
+  content: 'Content' #required!
+  content_bottom: 'Content bottom'
+  sidebar_first: 'First sidebar'
+  sidebar_second: 'Second sidebar'
+  footer_top: 'Footer top'
+  footer_bottom: 'Footer bottom'

@@ -1,0 +1,33 @@
+social_menu:
+  label: 'Social menu'
+  description: 'Social menus.'
+  fields:
+    items:
+      type: 'collection'
+      label: 'Social menu'
+      description: 'Social menu items.'
+      preview:
+        - title: 'Twitter'
+          url: '#'
+          menu_level: 0
+          attributes:
+            Attribute():
+              class: []
+        - title: 'Facebook'
+          url: '#'
+          menu_level: 0
+          attributes:
+            Attribute():
+              class: []
+        - title: 'Instagram'
+          url: '#'
+          menu_level: 0
+          attributes:
+            Attribute():
+              class: []
+        - title: 'Github'
+          url: '#'
+          menu_level: 0
+          attributes:
+            Attribute():
+              class: []

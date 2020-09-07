@@ -1,0 +1,9 @@
+navbar:
+  label: 'Navbar'
+  description: 'A navbar component.'
+  fields:
+    title:
+      type: 'text'
+      label: 'Title'
+      description: 'Site name.'
+      preview: 'Drupal Pattern'

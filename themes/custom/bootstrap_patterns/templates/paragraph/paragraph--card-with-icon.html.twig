@@ -1,0 +1,5 @@
+{{ pattern('card-icon', {
+  'icon_class': content.field_icon_class|render|striptags|trim,
+  'title': content.field_title|render|striptags|trim,
+  'text': content.field_description|render|striptags|trim
+}) }}

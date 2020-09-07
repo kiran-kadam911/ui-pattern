@@ -1,0 +1,15 @@
+{# Footer #}
+{% if page.footer %}
+	{% block footer %}
+		<footer id="footer" class="footer {{ container }}" role="contentinfo">
+			<div class="inner">
+				<div class="content">
+					{{ page.footer_top }}
+				</div>
+				<div class="copyright">
+					{{ page.footer }}
+				</div>
+			</div>
+		</footer>
+	{% endblock %}
+{% endif %}

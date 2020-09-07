@@ -1,0 +1,124 @@
+{
+  "bolt": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/global",
+      "node_modules/@bolt/components-button",
+      "node_modules/@bolt/components-headline",
+      "node_modules/@bolt/components-link",
+      "node_modules/@bolt/components-icon",
+      "node_modules/@bolt/components-navbar",
+      "node_modules/@bolt/components-sticky",
+      "node_modules/@bolt/components-figure",
+      "node_modules/@bolt/components-ratio",
+      "node_modules/@bolt/core-v3.x",
+      "node_modules/@bolt/element",
+      "node_modules/@bolt/lazy-queue",
+      "node_modules/@bolt/components-nav-indicator",
+      "node_modules/@bolt/components-nav-priority",
+      "node_modules/@bolt/components-navlink"
+    ]
+  },
+  "bolt-data": {
+    "recursive": true,
+    "paths": [
+      "./dist/data"
+    ]
+  },
+  "bolt-assets": {
+    "recursive": true,
+    "paths": [
+      "./dist"
+    ]
+  },
+  "bolt-global": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/global"
+    ]
+  },
+  "bolt-components-button": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-button"
+    ]
+  },
+  "bolt-components-headline": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-headline"
+    ]
+  },
+  "bolt-components-link": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-link"
+    ]
+  },
+  "bolt-components-icon": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-icon"
+    ]
+  },
+  "bolt-components-navbar": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-navbar"
+    ]
+  },
+  "bolt-components-sticky": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-sticky"
+    ]
+  },
+  "bolt-components-figure": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-figure"
+    ]
+  },
+  "bolt-components-ratio": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-ratio"
+    ]
+  },
+  "bolt-core-v3.x": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/core-v3.x"
+    ]
+  },
+  "bolt-element": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/element"
+    ]
+  },
+  "bolt-lazy-queue": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/lazy-queue"
+    ]
+  },
+  "bolt-components-nav-indicator": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-nav-indicator"
+    ]
+  },
+  "bolt-components-nav-priority": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-nav-priority"
+    ]
+  },
+  "bolt-components-navlink": {
+    "recursive": true,
+    "paths": [
+      "node_modules/@bolt/components-navlink"
+    ]
+  }
+}

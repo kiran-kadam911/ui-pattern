@@ -1,0 +1,10 @@
+build
+vendor
+composer.lock
+.DS_STORE
+*.patch
+node_modules
+*.css.map
+
+.idea/
+.vscode/

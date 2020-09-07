@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * Icon pattern.
+ */
+#}
+<section class="card card--icon">
+	<div class="content">
+		<header>
+			{% if icon_class %}
+				<a href="#" class="icon {{ icon_class }}">
+					<span class="label">Icon</span>
+				</a>
+			{% endif %}
+			<h3>{{ title }}</h3>
+		</header>
+		<p>{{ text }}</p>
+	</div>
+</section>

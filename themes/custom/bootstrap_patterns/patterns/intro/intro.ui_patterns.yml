@@ -1,0 +1,46 @@
+intro:
+  label: 'Intro section'
+  description: 'A intro section with title & description.'
+  fields:
+    title:
+      type: 'text'
+      label: 'Intro title'
+      description: 'Intro title.'
+      preview: 'Intro title'
+    text:
+      type: 'text'
+      label: 'Intro text'
+      description: 'Intro text.'
+      preview: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.'
+    image:
+      type: 'image'
+      label: 'Image'
+      description: 'As a background image.'
+      preview: '/themes/custom/bootstrap_patterns/images/cta01.jpg'
+    video:
+      type: 'pattern'
+      label: 'Video'
+      description: 'As a background video.'
+      preview: '/themes/custom/bootstrap_patterns/images/banner.mp4'
+  variants:
+    text-left:
+      label: Left align
+      description: Left align intro.
+    text-center:
+      label: Center align
+      description: Center align intro.
+    text-right:
+      label: Right align
+      description: Right align intro.
+    image:
+      label: 'Image'
+      description: 'As a background image.'
+    video:
+      label: 'Video'
+      description: 'As a background video.'
+  libraries:
+    -
+      intro:
+        css:
+          component:
+            ../../dist/css/intro/intro.css: {}

@@ -1,0 +1,5 @@
+{{ pattern('intro', {
+  'image': content.field_image|render|striptags|trim,
+  'title': paragraph.field_intro.entity.field_title.value|render|striptags|trim,
+  'text': paragraph.field_intro.entity.field_description.value|render|striptags|trim
+}, 'image') }}

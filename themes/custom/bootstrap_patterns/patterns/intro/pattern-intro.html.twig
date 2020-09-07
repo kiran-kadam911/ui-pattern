@@ -1,0 +1,8 @@
+<div class="{{ variant }}">
+	{% if title %}
+		<h2>{{ title|render|striptags|trim }}</h2>
+	{% endif %}
+	{% if text %}
+		<p>{{ text|render|striptags|trim }}</p>
+	{% endif %}
+</div>
